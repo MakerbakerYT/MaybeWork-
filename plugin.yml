@@ -1,0 +1,6 @@
+name: ClassicPrison
+description: Conflict's classic prison plugin
+authors: MakerbakerYT
+version: 0.0.1
+main: \classicprison\Main
+api: [3.0.0]
