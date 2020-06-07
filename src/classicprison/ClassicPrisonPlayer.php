@@ -69,7 +69,7 @@ class ClassicPrisonPlayer extends CorePlayer {
 	}
 
 	public function afterAuthCheck() {
-		$this->addTitle(LanguageUtils::translateColors("&eWelcome to &r&l&6Conflict&7PE &fPrison&r&e!"), TextFormat::GRAY . ($this->isAuthenticated() ? "Do /mines to start mining!" : ($this->isRegistered() ? "Login to start playing!" : "Follow the prompts to register!")), 10, 100, 10);
+		$this->addTitle(LanguageUtils::translateColors("&eWelcome to &r&l&6Fallen&7Mc &fPrison&r&e!"), TextFormat::GRAY . ($this->isAuthenticated() ? "Do /mines to start mining!" : ($this->isRegistered() ? "Login to start playing!" : "Follow the prompts to register!")), 10, 100, 10);
 
 		$pk = new LevelEventPacket();
 		$pk->x = $this->x;
